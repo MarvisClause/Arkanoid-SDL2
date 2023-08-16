@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Managers">
+      <UniqueIdentifier>{b0e27c1c-5f85-4bf7-b0c6-06da1afa7710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Managers">
+      <UniqueIdentifier>{99bc241a-cfd7-4710-bc41-ba67a14835be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects">
+      <UniqueIdentifier>{1b423078-9bda-4ef7-90b8-8af8b8216366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Objects">
+      <UniqueIdentifier>{69142adb-f550-4af0-bd09-866edd304bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\Abilities">
+      <UniqueIdentifier>{d8600be9-e9c4-4797-b106-36ffbdc4eb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Objects\Abilities">
+      <UniqueIdentifier>{ad72f0d7-d077-4de7-9952-0eb86c415ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects\Enemy">
+      <UniqueIdentifier>{bc740d73-d962-448e-b0e2-edf648a6e6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Objects\Enemy">
+      <UniqueIdentifier>{ee0b0e2e-abf4-40c3-a092-4697fdf30cf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2f.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnManager.cpp">
+      <Filter>Исходные файлы\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Исходные файлы\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFramework.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Reticle.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidBlock.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Исходные файлы\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathZone.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability.cpp">
+      <Filter>Исходные файлы\Objects\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Исходные файлы\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretBullet.cpp">
+      <Filter>Исходные файлы\Objects\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\2022_win64\2022_win64\Framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFramework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectType.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2f.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnManager.h">
+      <Filter>Файлы заголовков\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Файлы заголовков\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Reticle.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidBlock.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Файлы заголовков\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathZone.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>Файлы заголовков\Objects\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Файлы заголовков\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretBullet.h">
+      <Filter>Файлы заголовков\Objects\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
