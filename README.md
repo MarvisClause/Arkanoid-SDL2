@@ -47,8 +47,4 @@ DGArk is a classic desktop arkanoid game that brings the thrill of breaking bric
 
 DGArk is a classic desktop arkanoid game designed for fun and entertainment. It's based on the timeless concept of breaking bricks and achieving the highest score. Enjoy the game, and feel free to share it with others.
 
-## Acknowledgments
-
-We'd like to acknowledge the classic arkanoid games that inspired DGArk, as well as the open-source community for their valuable contributions.
-
 Have fun playing DGArk!
