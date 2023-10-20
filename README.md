@@ -2,6 +2,8 @@
 
 DGArk is a classic desktop arkanoid game that brings the thrill of breaking bricks, bouncing balls, and aiming for the highest score. It's a timeless gaming experience that will keep you engaged for hours. This README provides an overview of the game.
 
+![Arkanoid-SDL2 Gameplay](https://github.com/MarvisClause/Arkanoid-SDL2/blob/main/ShowCase/gameplay.gif)
+
 ## Game Overview
 
 - **Objective:** Clear all the bricks on the screen without losing all your lives.
